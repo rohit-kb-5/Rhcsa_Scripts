@@ -1,0 +1,5 @@
+Q10) Create the new logical volume "datastore" inside volume group "database" with the following keynotes - The logical volume should be of 50 extends,Volume group physical extent size must be 16 MB,It should be mounted under /common/classes with ext4 (automount after reboot as well)
+Q11) Create a new swap partition of 200M and make it active on boot time
+Q12) Create a /my_backup.tar.gz file having data as located on /usr/local
+Q13) Create a VDO named vgrp using all available empty disks,Give xfs file system to the mapper /dev/mapper/vgrp,Mount it on /datadisk (mount must be available after reboot as well)
+Q14) Copy the file /etc/fstab to /var/tmp,Configure the permissions of /var/tmp/fstab so that: the file /var/tmp/fstab is owned by the root user,belongs to the group root and should not be executable by anyone,the user michael is able to read and write /var/tmp/fstab,the user john can neither write nor read /var/tmp/fstab,all others users (current or future) have the ability to read /var/tmp/fstab.
